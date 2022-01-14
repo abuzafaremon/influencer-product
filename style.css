@@ -8,10 +8,24 @@ font-family: 'Poppins', sans-serif;  ------------------------ */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html{
     font-size: 16px;
 }
 body{
     font-family: 'Poppins', sans-serif;
+}
+section{
+    padding: 50px 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    max-width: 1440px;
+    width: 1200px;
 }
 a{
     text-decoration: none;
@@ -19,4 +33,118 @@ a{
 li{
     list-style: none;
 }
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E02C6D;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 24px;
+    border: none;
+    font-weight: bold;
+}
 /* ---------------------------- */
+#header{
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+.header-container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo .logo-text{
+    font-family: 'Carter One', cursive;
+    /* color: #3A3A3A; */
+    color: #3A3A3A;
+    font-size: 1.5em;
+}
+.logo .logo-link{
+    color: #3A3A3A;
+}
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .nav-items{
+    display: flex;
+    align-items: center;
+}
+.nav-items li{
+    margin-right: 16px;
+}
+.nav-items li .fa-search{
+    font-size: 1.5em;
+    cursor: pointer;
+    position: relative;
+}
+.nav-items li input[type="search"]{
+    display: none;
+    position: absolute;
+    left: -130px;
+    outline: none;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    padding: 2px 5px;
+    width: 150px;
+}
+.nav-items li .fa-search:hover input[type="search"]{
+    display: block;
+}
+.nav-items li a{
+    font-size: 1em;
+    color: #3A3A3A;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+    transition: all .5s ease-in-out;
+}
+.nav-items li a:hover{
+    border-bottom: 2px solid #3A3A3A;
+}
+.header-right .cart-icon{
+    font-size: 2.3em;
+    color: #3A3A3A;
+}
+/* -----hero area styling-----  */
+.hero-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left{
+    margin-right: 130px;
+}
+.hero-left h1{
+    font-size: 3.25em;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+.hero-left p{
+    font-size: 1em;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.hero-left .hero-btn{
+    border-radius: 40px;
+}
+.hero-area .hero-right{
+    background: url(images/Circle\ design.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    width: 475px;
+    height: 475px;
+    padding: 30px 30px 30px 5px;
+}
+.hero-area .hero-right img{
+    width: 440px;
+    height: 414px;
+}
+/* ----------------------------- */
+/* Products sections styling */
