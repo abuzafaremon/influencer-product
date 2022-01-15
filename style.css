@@ -234,5 +234,24 @@ li{
 }
 /* ----------------------------- */
 /* own section styling */
-
+.newsletter{
+    text-align: center;
+    padding: 0 120px;
+}
+.newsletter .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.newsletter .form input{
+    border: 1px solid #3A3A3A;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.newsletter .form input:last-child{
+    border: none;
+    padding: 10px 24px;
+}
 /* footer styling */
