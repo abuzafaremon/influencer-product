@@ -43,6 +43,8 @@ li{
     padding: 10px 24px;
     border: none;
     font-weight: bold;
+    cursor: pointer;
+    border-radius: 40px;
 }
 /* ---------------------------- */
 #header{
@@ -129,9 +131,6 @@ li{
     line-height: 24px;
     margin-bottom: 16px;
 }
-.hero-left .hero-btn{
-    border-radius: 40px;
-}
 .hero-area .hero-right{
     background: url(images/Circle\ design.svg);
     position: relative;
@@ -147,4 +146,93 @@ li{
     height: 414px;
 }
 /* ----------------------------- */
+/* company logo syling */
+.divider{
+    height: 2px;
+    border: none;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+.company-logos{
+    padding: 35px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company-logos .company-logo{
+    margin-right: 60px;
+}
 /* Products sections styling */
+.section-title{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.75em;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    justify-items: center;
+    padding: 0 70px;
+}
+.products .product{
+    width: 330px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow:  0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.product .product-title{
+    font-size: 1.75em;
+    margin-bottom: 6px;
+    color: #18191F;
+}
+.product .product-price{
+    color:#000000de;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.product .ratings{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.ratings .fas.filled{
+    color: #FB8200;
+}
+.ratings .fas.not-filled{
+    color: #787885;
+}
+.ratings .rating{
+    font-weight: bold;
+    margin-left: 8px;
+}
+.rating small{
+    color: #5E6366;
+    font-size: 14px;
+}
+.product .details{
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+}
+.products-see-more{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 70px;
+    margin-top: 50px;
+}
+#products .see-more-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #E02C6D;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* ----------------------------- */
+/* own section styling */
+
+/* footer styling */
