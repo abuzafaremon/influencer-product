@@ -46,7 +46,6 @@ li{
 }
 /* ---------------------------- */
 #header{
-    background-color: #ccc;
     display: flex;
     justify-content: center;
     padding: 5px 0;
