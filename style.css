@@ -473,5 +473,8 @@ li{
     .products-see-more{
         padding: 0;
     }
+    .products-see-more .see-more-btn{
+        padding: 10px 0;
+    }
 }
         
