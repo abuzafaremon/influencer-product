@@ -267,6 +267,7 @@ li{
 .newsletter .form input.subscribe{
     background-color: #E02C6D;
     color: #fff;
+    padding: 10px 24px;
     border: none;
     border-radius: 5px;
 }
