@@ -255,3 +255,39 @@ li{
     padding: 10px 24px;
 }
 /* footer styling */
+#footer{
+    background-color: #0A0826;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.footer-content{
+    text-align: center;
+    color: #fff;
+}
+.footer-logo-link{
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'Carter One', cursive;
+}
+.footer-content .copyright{
+    margin-bottom: 15px;
+}
+.footer-content P{
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon .icon{
+    position: relative;
+    margin-right: 15px;
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff1a;
+    padding: 5px;
+    border-radius: 50%;
+}
